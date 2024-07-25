@@ -9,7 +9,7 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false, //because I couldn't import types from prisma
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
